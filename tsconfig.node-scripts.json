@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "inlineSourceMap": true,
+    "lib": ["es2019"],
+    "module": "es6",
+    "moduleResolution": "node"
+  },
+  "include": ["src/utils/node-scripts"],
+  "exclude": ["**/*.spec.ts", "node_modules", "public"]
+}

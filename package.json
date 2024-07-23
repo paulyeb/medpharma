@@ -1,0 +1,63 @@
+{
+  "name": "medpharma",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "scripts": {
+    "start": "npx expo start",
+    "android": "npx expo start --android",
+    "ios": "npx expo start --ios",
+    "web": "npx expo start --web",
+    "prettier-check": "prettier --check *",
+    "ts:check": "tsc",
+    "node-scripts-tsc": "tsc --project tsconfig.node-scripts.json",
+    "generate-icon-types": "npm run node-scripts-tsc && node src/utils/node-scripts/generateIconTypes.js"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-community/datetimepicker": "^8.2.0",
+    "@react-native-community/slider": "^4.5.2",
+    "@react-navigation/bottom-tabs": "^6.5.20",
+    "@react-navigation/material-top-tabs": "^6.6.13",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "@rneui/base": "^4.0.0-rc.7",
+    "@rneui/themed": "^4.0.0-rc.8",
+    "@tanstack/react-query": "^5.36.2",
+    "@types/react-native": "^0.73.0",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.11",
+    "expo": "~51.0.8",
+    "expo-blur": "^13.0.2",
+    "expo-dev-client": "~4.0.14",
+    "expo-linear-gradient": "~13.0.2",
+    "expo-location": "^17.0.1",
+    "expo-splash-screen": "^0.27.5",
+    "expo-status-bar": "~1.12.1",
+    "libphonenumber-js": "^1.11.2",
+    "react": "18.2.0",
+    "react-native": "0.74.1",
+    "react-native-date-picker": "^5.0.4",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "^2.17.1",
+    "react-native-image-viewing": "^0.2.2",
+    "react-native-paper": "^5.12.3",
+    "react-native-safe-area-context": "^4.10.1",
+    "react-native-screens": "^3.31.1",
+    "react-native-svg": "^15.3.0",
+    "react-query": "^3.39.3",
+    "redux": "^5.0.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.45",
+    "eslint": "^9.3.0",
+    "eslint-config-universe": "^12.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.1.3"
+  },
+  "private": true
+}
