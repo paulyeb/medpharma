@@ -7,12 +7,10 @@ import {
   IconDialer,
   IconSecurePassword,
   IconShield,
-  IconWallet,
   NormalView,
 } from '../../components';
 import { ListAnnex } from '../../components/list/List';
 import { useAccount } from '../authentication/hooks';
-import { ProfileScreens } from '../../utils/NavigationKeys';
 
 export const AccountScreen = () => {
   const c = useColors();
@@ -29,7 +27,6 @@ export const AccountScreen = () => {
             subtitle="Update your contact"
             subtitleOptions={{ size: 12 }}
             chevron
-            onPress={() => navigate(ProfileScreens.changeNumberScreen)}
           />
           <ListAnnex
             icon={<IconSecurePassword />}
@@ -38,7 +35,6 @@ export const AccountScreen = () => {
             subtitle="Reset your password to access your account"
             subtitleOptions={{ size: 12 }}
             chevron
-            onPress={() => navigate(ProfileScreens.forgotPasswordScreen)}
           />
           <ListAnnex
             icon={<IconShield />}
@@ -47,7 +43,6 @@ export const AccountScreen = () => {
             subtitle="Update your password to enhance account security"
             subtitleOptions={{ size: 12 }}
             chevron
-            onPress={() => navigate(ProfileScreens.changePasswordScreen)}
           />
           <ListAnnex
             icon={<IconBin />}
@@ -56,7 +51,6 @@ export const AccountScreen = () => {
             subtitle="Deactivate your account to stop all activity"
             subtitleOptions={{ size: 12 }}
             chevron
-            onPress={() => navigate(ProfileScreens.deactivateAccountScreen)}
           />
         </View>
 

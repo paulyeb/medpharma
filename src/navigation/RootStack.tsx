@@ -19,5 +19,5 @@ export const RootStack = () => {
 export const App = () => {
   const { loggedIn } = useAuthStore();
   console.log({ loggedIn });
-  return loggedIn ? <AppStack /> : <AuthStack />;
+  return !loggedIn ? <AppStack /> : <AuthStack />;
 };

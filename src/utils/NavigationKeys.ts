@@ -1,11 +1,3 @@
-export const OnboardingScreens = {
-  firstScreen: 'firstScreen',
-  secondScreen: 'secondScreen',
-  thirdScreen: 'thirdScreen',
-  finalScreen: 'finalScreen',
-  getStarted: 'getStarted',
-};
-
 export const WelcomeScreens = {
   welcomeScreen: 'welcomeScreen',
 };
@@ -23,13 +15,6 @@ export const AuthScreens = {
 export const ProfileScreens = {
   profileScreen: 'profileScreen',
   accountScreen: 'accountScreen',
-  changeNumberScreen: 'changeNumberScreen',
-  verifyOTPScreen: 'verifyOTPScreen',
-  updateNumberScreen: 'updateNumberScreen',
-  changePasswordScreen: 'changePasswordScreen',
-  deactivateAccountScreen: 'deactivateAccountScreen',
-  forgotPasswordScreen: 'forgotPasswordScreen',
-  setNewPasswordScreen: 'setNewPasswordScreen',
   notificationsScreen: 'notificationsScreen',
   privacyPolicyScreen: 'privacyPolicyScreen',
   helpCenterScreen: 'helpCenterScreen',
